@@ -43,3 +43,88 @@ for $inject_mixin in hexo-config('injects.mixin')
 // --------------------------------------------------
 for $inject_style in hexo-config('injects.style')
   @import $inject_style;
+
+// Custom Style
+// header
+.header {
+    background: url('../../images/header_background.jpg');
+}
+
+// title
+.site-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+// brand
+.brand {
+    background: rgba(240, 240, 240, 0.8);
+}
+
+// subtitle
+.site-subtitle {
+    font-size: 15px;
+    color: black;
+}
+
+// menu
+.menu {
+    margin-top: 20px;
+    padding-left: 0;
+    text-align: center;
+    background: rgba(240, 240, 240, 0.8);
+    margin-left: auto;
+    margin-right: auto;
+    width: 530px;
+    border-radius: initial;
+}
+
+// superlink
+a {
+    color: rgba(0, 0, 0, 0.8); // color: white;
+}
+
+a:hover {
+    color: #ff106c;
+    border-bottom-color: #ff106c;
+}
+
+// menu font
+.menu .menu-item a {
+    font-size: 14px;
+    color: black;
+}
+
+.menu .menu-item a:hover {
+    border-bottom-color: #ff106c;
+    color: #ff106c;
+}
+
+// about
+.site-description {
+    font-size: 16px;
+}
+
+// name
+.site-author-name {
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 20px;
+}
+
+// button
+.btn {
+    margin-top: 20px;
+}
+
+// code style
+code {
+    color: #E6006B;
+    background: white;
+    border-radius: 3px;
+}
+
+body {
+    color: #444;
+    font-size: 16px;
+}
