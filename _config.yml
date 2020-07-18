@@ -61,7 +61,7 @@ footer:
     # If you want to animate the icon, set it to true.
     animated: false
     # Change the color of icon, using Hex Code.
-    color: "#aaaaaa"
+    color: "#cccccc"
 
   # If not defined, `author` from Hexo `_config.yml` will be used.
   copyright:
@@ -233,11 +233,11 @@ chat:
 # ---------------------------------------------------------------
 
 # Automatically excerpt description in homepage as preamble text.
-excerpt_description: true
+excerpt_description: false
 
 # Read more button
 # If true, the read more button will be displayed in excerpt section.
-read_more_btn: true
+read_more_btn: false
 
 # Post meta display settings
 post_meta:
